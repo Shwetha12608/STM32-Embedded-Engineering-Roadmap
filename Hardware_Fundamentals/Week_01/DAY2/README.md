@@ -1,10 +1,11 @@
 **Day 2: The Surgical Tools — Bit Manipulation Mastery**
 Today's focus shifted from the "Silicon Map" to the "Surgical Tools." In Embedded Engineering, you rarely overwrite a whole register. Instead, you must modify specific bits with high precision while leaving the rest of the 32-bit register untouched. 
 This is the hallmark of professional firmware development.
-The Bitwise Toolkit
-I mastered the four fundamental operations used to control hardware registers without causing "Destructive Writes."
 
-1. **1.The "Set" Operation (|):** :
+The Bitwise Toolkit
+I mastered the four fundamental operations used to control hardware registers without causing **"Destructive Writes"**.
+
+**1.The "Set" Operation (|):** :
 Used to turn a feature ON.
 Logic: Register |= (1 << n);Why: Using OR with a mask ensures that only the nth bit changes to 1.
 All other bits remain exactly as they were (X | 0 = X).
