@@ -1,0 +1,11 @@
+# Build files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+
+# IDE files
+.project
+.settings/
+.vscode/
