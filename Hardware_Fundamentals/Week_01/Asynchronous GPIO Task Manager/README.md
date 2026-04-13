@@ -14,3 +14,5 @@ The "Polling" Logic is as follows:
 4. Repeat: It goes back to Step 1 and blinks again.
 
 **This is why Polling is bad for real-time systems: The LED doesn't care about the button; it just follows the loop.**
+
+Demo link:[https://wokwi.com/projects/461195193249408001](url)
