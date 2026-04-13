@@ -20,4 +20,4 @@ Interface: Direct Memory-Mapped I/O (MMIO)
 Registers: RCC_IOPENR, GPIOx_MODER, GPIOx_ODR
 Efficiency: Zero library overhead. Tiny memory footprint.
 
-wowki project link: )[https://wokwi.com/projects/460920059684641793](url)
+wowki project link: https://wokwi.com/projects/460920059684641793
